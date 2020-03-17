@@ -81,8 +81,8 @@ When defining short functions, it's convenient to use an alternative syntax call
 Now, rewrite the function `isEven()` by using the concept of Lambda Function.
 
 
-### Function #6: Map
-
+ var isEven= numberArray.filter(function(numberArray){
+       return (numberArray % 2)==0;
 Another very useful higher order function is map. It takes a function and applies it to all the elements of an array.
 The syntax is identical to `filter`.
 
